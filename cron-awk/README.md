@@ -36,8 +36,6 @@ __awk__ merupakan sebuah program yang bisa digunakan untuk mengambil catatan/rec
 
 Fungsi dasar awk adalah memeriksa sebuah file per barisnya (atau satuan teks lain) yang mengandung pola tertentu. Ketika sebuah baris cocok dengan salah satu pola, awk akan melakukan action tertentu pada baris tersebut. awk melanjutkan proses sampai menemui end of file pada file yang menjadi masukan tadi.
 
-FYI: awk versi baru dinamakan gawk, tapi biasanya tetap disebut awk.
-
 Awk adalah bahasa scripting yang digunakan untuk memanipulasi data dan menghasilkan laporan. Bahasa pemrograman perintah awk tidak memerlukan kompilasi, dan memungkinkan pengguna untuk menggunakan variabel, fungsi numerik, fungsi string, dan operator logika. Awk sebagian besar digunakan untuk pemindaian dan pemrosesan pola.
 
 ## 2.1 Menjalankan Program AWK
