@@ -1,8 +1,8 @@
 ## Daftar Isi
 
-1. [Cron](#2-cron)
+1. [Cron](#1-cron)
     - [1.1 Membuat atau mengubah cron jobs](#11-membuat-atau-mengubah-cron-jobs)
-2. [AWK](#3-awk)
+2. [AWK](#2-awk)
     - [2.1 Menjalankan Program AWK](#21-menjalankan-program-awk)
     - [2.2 Special Rules](#22-special-rules)
 
