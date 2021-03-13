@@ -34,7 +34,7 @@ Berikut ini perbandingan termasuk kelebihan dan kekurangan dari kedua teknik ins
 
 1. Install Oracle VM VirtualBox. Jika sudah ada, lanjut ke langkah 2.<br/><br/>
 2. Buka aplikasi Oracle VM VirtualBox di Windows kamu.<br/><br/>
-![Tampilan awal Oracle VM VirtualBox](./img/tampilan-awal.png "Tampilan awal Oracle VM VirtualBox")
+![Tampilan awal Oracle VM VirtualBox](./img/tampilan-awal.PNG "Tampilan awal Oracle VM VirtualBox")
 <br/><br/>
 3. Klik **New** untuk membuat Virtual Machine baru. Isi **name** dengan nama 'Ubuntu 20.04', **type** pilih Linux, dan pilih **version** sesuai sepesifikasi PC atau Laptop kamu. Kemudian klik **Next** untuk proses selanjutnya.<br/><br/>
 ![Membuat Virtual Machine baru Oracle VM VirtualBox](./img/1.png "Membuat Virtual Machine baru Oracle VM VirtualBox")
@@ -71,31 +71,31 @@ Setelah berhasil membuat virtual machine, selanjutnya kita menginstall Ubuntu 20
 3. Memilih bahasa yang digunakan untuk penyesuaian keyboard. Ikuti saja defaultnya, langsung klik **Continue**.<br/><br/>  
 ![Instalasi Ubuntu(5)](./img/12.png "Instalasi Ubuntu(5)")
 <br/><br/>
-1. Tekan Enter bila ingin melakukan update installer.<br/><br/>
+1. Tekan Enter bila ingin melakukan update installer atau langsung pilih **Done**.<br/><br/>
 ![Instalasi Ubuntu(3)](./img/13.png "Instalasi Ubuntu(3)")
 <br/><br/>
-5. Pilih layout keyboard yang diinginkan<br/><br/>
+5. Pilih layout keyboard yang diinginkan lalu arahkan kursor ke **Done** dan tekan enter.<br/><br/>
 ![Instalasi Ubuntu(4)](./img/14.png "Instalasi Ubuntu(4)")
 <br/><br/>
-1. Jika sistem terhubung ke jaringan, harusnya akan ada alamat IP dari server DHCP Anda.<br/><br/>
+1. Jika sistem terhubung ke jaringan, harusnya alamat IP akan otomatis terisi oleh DHCP server kita. Tekan enter pada **Done**<br/><br/>
 ![Instalasi Ubuntu(5)](./img/15.png "Instalasi Ubuntu(5)")
 <br/><br/>
-7. Pilih **Guided storage configuration** agar pembagian disk dilakukan secara otomatis.<br/><br/>
+7. Halaman ini berisi informasi tentang bagaimana cara kita ingin membagi disk untuk ubuntu server kita. Tekan enter pada **Done** untuk menggunakan konfigurasi default.<br/><br/>
 ![Instalasi Ubuntu(6)](./img/16.png "Instalasi Ubuntu(6)")
 <br/><br/>
-8. Tekan Enter apabila kita ingin mengatur pembagiannya lagi.<br/><br/>
+8. Pastikan pembagian disk sudah sesuai lalu tekan Enter pada **Done**.<br/><br/>
 ![Instalasi Ubuntu(7)](./img/17.png "Instalasi Ubuntu(7)")
 <br/><br/>
 9. Pilih continue untuk memulai proses instalasi<br/><br/>
 ![Instalasi Ubuntu(8)](./img/18.png "Instalasi Ubuntu(8)")
 <br/><br/>
-10. Lakukan setup profile user dengan mengisikan nama, nama server, username, dan password<br/><br/>
+10. Lakukan setup profile user dengan mengisikan nama, nama server, username, dan password.<br/><br/>
 ![Instalasi Ubuntu(9)](./img/19.png "Instalasi Ubuntu(9)")
 <br/><br/>
 11.  Centang bagian **Install OpenSSH server** agar bisa melakukan koneksi ssh pada server kita.<br/><br/>
 ![Instalasi Ubuntu(10)](./img/20.png "Instalasi Ubuntu(10)")
 <br/><br/>
-12.  Ini adalah list environment server populer yang bisa kita pilih untuk install, untuk sekarang bisa kita skip dulu.<br/><br/>
+12.  Ini adalah list environment server populer yang bisa kita pilih untuk install, setelah memilih environment yang ingin digunakan, tekan enter pada **Done**.<br/><br/>
 ![Instalasi Ubuntu(11)](./img/21.png "Instalasi Ubuntu(11)")
 <br/><br/>
 13.  Terakhir bisa kita tunggu hingga proses instalasi selesai.<br/><br/>
