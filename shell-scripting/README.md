@@ -102,7 +102,7 @@ $ chmod +x hello.sh
 ```
 Eksekusi file script dengan cara ./nama_file.sh atau `bash nama_file.sh`.
 
-![hello world](/gambar/1.4.png)
+![hello world](/shell-scripting/gambar/1.4.png)
 
 ## 1.4 Variabel
 - Beberapa hal yang perlu diperhatikan dalam mendefinisikan variabel:
@@ -161,7 +161,7 @@ echo "Variabel array pertama:" ${nama_admin[0]}
 ```
 Output:
 
-![variabel](/gambar/bash1-5.png)
+![variabel](/shell-scripting/gambar/bash1-5.png)
 
 
 ### 1.4.1 Special Variable
@@ -191,7 +191,7 @@ echo "PID : $$"
 ```
 Output:
 
-![special](/gambar/special.png)
+![special](/shell-scripting/gambar/special.png)
 
 ## 1.5 Input Output
 - read digunakan untuk mengambil input dari keyboard dengan syntax sebagai berikut:
@@ -225,7 +225,7 @@ echo -e "\nHai $nama!\nSelamat datang di materi camin $laboratorium ! ;)"
 Output:
 
 
-![input](/gambar/inp.png)
+![input](/shell-scripting/gambar/inp.png)
 
 Selain echo, bash juga menyediakan perintah builtin printf untuk menampilkan output dengan format tertentu, mirip bahasa C. Contoh:
 ```bash
@@ -240,7 +240,7 @@ printf "%d decimal dalam float = %.2f\n" $angka $angka
 ```
 Output:
 
-![printf](/gambar/printf.png)
+![printf](/shell-scripting/gambar/printf.png)
 
 ## 1.6 Quoting
 Shell Unix/Linux memiliki beberapa karakter spesial yang disebut dengan **metakarakter**. Karakter tersebut punya makna khusus jika digunakan di dalam shell script. Beberapa macam metakarakter:
@@ -278,7 +278,7 @@ echo "Dimana kita? " $dmn
 ```
 
 Output:   
-![hasil-quote](/gambar/hasil-quote.png)
+![hasil-quote](/shell-scripting/gambar/hasil-quote.png)
 
 Lebih banyak dapat dilihat sendiri di `man bash`
 
@@ -342,7 +342,7 @@ echo "b = $b"
 
 Output:
 
-![hasil-181](/gambar/hasil-181.png)
+![hasil-181](/shell-scripting/gambar/hasil-181.png)
 
 ### 1.7.2 Operator Relasional
 
@@ -460,7 +460,7 @@ case "$jawaban" in
 esac
 ```
 Output:   
-![hasil-case](/gambar/hasil-case.png)
+![hasil-case](/shell-scripting/gambar/hasil-case.png)
 
 ## 1.9 Loop
 **Loop** digunakan untuk mengeksekusi serangkaian perintah berulang kali. Ada beberapa macam shell loops:
@@ -595,7 +595,7 @@ do
 done
 ```
 Output:   
-![hasil-select-loop](/gambar/hasil-select-loop.png)
+![hasil-select-loop](/shell-scripting/gambar/hasil-select-loop.png)
 
 ### 1.9.5 Nesting Loops
 Semua jenis loop di atas mendukung konsep nesting, artinya kita dapat menempatkan satu loop ke dalam loop lain, baik loop yang sejenis maupun berbeda jenis
@@ -658,7 +658,7 @@ ask_name
 reply
 ```
 Output:   
-![hasil-fungsi](/gambar/hasil-fungsi.png)
+![hasil-fungsi](/shell-scripting/gambar/hasil-fungsi.png)
 
 ### 1.10.1 Nested Functions
 Sama halnya dengan loop, function juga bisa menerapkan konsep nested. Dimana kita bisa memanggil sebuah fungsi di dalam fungsi.
@@ -679,7 +679,7 @@ reply() {
 ask_name
 ```
 Output:   
-![hasil-fungsi](/gambar/hasil-fungsi-nested.png)
+![hasil-fungsi](/shell-scripting/gambar/hasil-fungsi-nested.png)
 
 
 ## Referensi
