@@ -95,7 +95,7 @@ Setelah berhasil membuat virtual machine, selanjutnya kita menginstall Ubuntu 20
 11.  Centang bagian **Install OpenSSH server** agar bisa melakukan koneksi ssh pada server kita.<br/><br/>
 ![Instalasi Ubuntu(10)](./img/20.png "Instalasi Ubuntu(10)")
 <br/><br/>
-12.  Ini adalah list environment server populer yang bisa kita pilih untuk install, setelah memilih environment yang ingin digunakan, tekan enter pada **Done**.<br/><br/>
+12.  Ini adalah list snap yang biasa digunakanpada environment server yang bisa kita pilih untuk install, setelah memilih snap yang ingin digunakan, tekan enter pada **Done**.<br/><br/>
 ![Instalasi Ubuntu(11)](./img/21.png "Instalasi Ubuntu(11)")
 <br/><br/>
 13.  Terakhir bisa kita tunggu hingga proses instalasi selesai.<br/><br/>
