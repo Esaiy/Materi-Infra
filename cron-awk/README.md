@@ -1,3 +1,12 @@
+## Daftar Isi
+
+1. [Cron](#1-cron)
+    - [1.1 Membuat atau mengubah cron jobs](#11-membuat-atau-mengubah-cron-jobs)
+2. [AWK](#2-awk)
+    - [2.1 Menjalankan Program AWK](#21-menjalankan-program-awk)
+    - [2.2 Special Rules](#22-special-rules)
+3. [Referensi](#referensi)
+
 # 1. Cron
 Cron adalah sebuah service daemon yang memungkinkan user Linux dan Unix untuk menjalankan perintah atau _script_ pada waktu tertentu secara otomatis. Perintah-perintah dan/atau script-script yang dijalankan cron disebut cron jobs.
 Syntax crontab :
@@ -96,3 +105,9 @@ Ada berapa "732"?
 "732" muncul 2 kali.
 ```
 Pada contoh di atas, rule kedua hanya memiliki action untuk melakukan perhitungan berapa jumlah baris yang mengandung "732", namun tidak ada action untuk menampilkan (print).
+
+## Referensi
+* Modul 1 Praktikum Sistem Operasi TC 2020
+* [https://www.computerhope.com/unix/ucrontab.htm](https://www.computerhope.com/unix/ucrontab.htm)
+* [https://www.codepolitan.com/memahami-perintah-perintah-crontab-paling-lengkap-59f69445130a0](https://www.codepolitan.com/memahami-perintah-perintah-crontab-paling-lengkap-59f69445130a0)
+* [https://vpswp.blogspot.com/2015/06/definisi-dan-6-contoh-fungsi-perintah-awk-linux.html](https://vpswp.blogspot.com/2015/06/definisi-dan-6-contoh-fungsi-perintah-awk-linux.html)
