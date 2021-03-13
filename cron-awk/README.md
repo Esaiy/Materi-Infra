@@ -1,10 +1,10 @@
 ## Daftar Isi
 
 1. [Cron](#2-cron)
-    - [1.1 Membuat atau mengubah cron jobs](#21-membuat-atau-mengubah-cron-jobs)
+    - [1.1 Membuat atau mengubah cron jobs](#11-membuat-atau-mengubah-cron-jobs)
 2. [AWK](#3-awk)
-    - [2.1 Menjalankan Program AWK](#31-menjalankan-program-awk)
-    - [2.2 Special Rules](#32-special-rules)
+    - [2.1 Menjalankan Program AWK](#21-menjalankan-program-awk)
+    - [2.2 Special Rules](#22-special-rules)
 
 # 1. Cron
 Cron adalah sebuah service daemon yang memungkinkan user Linux dan Unix untuk menjalankan perintah atau _script_ pada waktu tertentu secara otomatis. Perintah-perintah dan/atau script-script yang dijalankan cron disebut cron jobs.
